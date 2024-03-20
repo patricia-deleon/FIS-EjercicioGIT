@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" name="nombre" id="nombre">
+            </label>
+            <label for="tiempo">
+                <span>Tiempo estimado</span>
+                <input type="date" name="tiempo" id="tiempo">
+            </label>
+            <button id="agregar">Agregar</button>
+        </fieldset>
+    </form>
+    <article>
+        <section>
+            <h1>Actividades pendientes</h1>
+            <ul>
+                <li>
+                    <div class="info">
+                        <p>Creada: xxxxx</p> <!-- Fecha de creación de la actividad (en formato fecha)-->
+                        <p>Actividad: XXXXX</p> <!-- Actividad ingresada en el formulario -->
+                        <p>Tiempo estimado: XXXX días</p> <!-- Tiempo estimado ingresado en el formulario (en días) -->
+                    </div>
+                    <button>Borrar</button> <!--botón para borrar la actividad-->
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h1>Actividades en Ejecución</h1>
+            <ul>
+                <li>
+                    <div class="info">
+                        <p>Desde: xxxxx</p><!-- Fecha desde que se esta ejecutando la actividad de la actividad (en formato fecha)-->
+                        <p>Actividad: XXXXX</p>
+                        <p>Tiempo estimado: XXXX días</p>
+                    </div>
+                    <button>Borrar</button>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h1>Realizadas</h1>
+            <ul>
+                <li>
+                    <div class="info">
+                        <p>Creada:XXXXXX</p><!-- Fecha de creación de la actividad (en formato fecha)-->
+                        <p>Fecha fin:XXXXXX</p><!-- Fecha en la culmino la actividad de la actividad (en formato fecha)-->
+                        <p>Actividad:XXXXX</p>
+                        <p>Tiempo estimado:XXXX</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </article>
+    <footer>
+    </footer>
+</body>
+</html>
